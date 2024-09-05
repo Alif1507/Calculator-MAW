@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="kalkulator">
+      <p id="hasil"></p>
+      <button onclick="tampil('9')" class="btn btn-9">9</button>
+      <button onclick="tampil('8')" class="btn btn-8">8</button>
+      <button onclick="tampil('7')" class="btn btn-7">7</button>
+      
+      <button onclick="tampil('6')" class="btn btn-6">6</button>
+      <button onclick="tampil('5')" class="btn btn-5">5</button>
+      <button onclick="tampil('4')" class="btn btn-4">4</button>
+      
+      <button onclick="tampil('3')" class="btn btn-3">3</button>
+      <button onclick="tampil('2')" class="btn btn-2">2</button>
+      <button onclick="tampil('1')" class="btn btn-1">1</button>
+     
+      <button onclick="tampil('0')" class="zero">0</button>
+      <button onclick="tampil('.')" class="titik">.</button>
+      
+      <button onclick="tampil('*')" class="op-btn btn-x">*</button>
+      <button onclick="tampil('/')" class="op-btn btn-:">/</button>
+      <button onclick="tampil('+')"class="op-btn btn-+">+</button>
+      
+      <button onclick="tampil('-')" class="op-btn btn--">-</button>
+      <button onclick="kalkulasi()"class="o-btn btn-=">=</button>
+      <button onclick="clearDisplay()" class="clear">Clear</button>
+     
+      
+    </div>
+  </div>
+</body>
+<script src="JS/Script.js"></script>
+</html>
